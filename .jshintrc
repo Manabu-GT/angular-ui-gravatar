@@ -1,0 +1,29 @@
+{
+  "node": true,
+  "browser": true,
+  "esnext": true,
+  /* changed to false */
+  "bitwise": false,
+  /* changed to false */
+  "camelcase": false,
+  /* added to allow escape/unescape */
+  "nonstandard": true,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "quotmark": "single",
+  "regexp": true,
+  "undef": true,
+  /* changed to false */
+  "unused": false,
+  "strict": true,
+  "trailing": true,
+  "smarttabs": true,
+  "globals": {
+    "angular": false
+  }
+}

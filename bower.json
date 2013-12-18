@@ -1,0 +1,30 @@
+{
+  "name": "angular-ui-gravatar",
+  "description": "An AngularJS Directive for Gravatar Image",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Manabu-GT/angular-ui-gravatar",
+  "author": {
+    "name": "Manabu-GT",
+    "url": "http://manabu-gt.tumblr.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Manabu-GT/angular-ui-gravatar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Manabu-GT/angular-ui-gravatar/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Manabu-GT/angular-ui-gravatar/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "angular": "~1.2.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.0",
+    "angular-scenario": "~1.2.0"
+  }
+}
