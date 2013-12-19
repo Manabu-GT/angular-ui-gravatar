@@ -10,7 +10,8 @@ module.exports = function (grunt) {
 
   var karmaConfig = function (configFile, customOptions) {
     var options = { configFile: configFile, keepalive: true };
-    return grunt.util._.extend(options, customOptions);
+    var travisOptions = process.env.TRAVIS && { browsers: [ 'Firefox', 'PhantomJS'], reporters: ['dots'] };
+    return grunt.util._.extend(options, customOptions, travisOptions);
   };
 
   // Define the configuration for all the tasks

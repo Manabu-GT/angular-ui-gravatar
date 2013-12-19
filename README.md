@@ -1,5 +1,5 @@
 
-angular-ui-gravatar
+angular-ui-gravatar [![Build Status](https://travis-ci.org/Manabu-GT/angular-ui-gravatar.png?branch=master)](https://travis-ci.org/Manabu-GT/angular-ui-gravatar)
 ========================
 An AngularJS Directive that takes an email address and several options and creates an image tag to show an avatar image
 from the Gravatar site.
