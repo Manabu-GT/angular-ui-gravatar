@@ -85,6 +85,12 @@ module.exports = function (grunt) {
         src: '<%= concat.dist.dest %>',
         dest: '<%= concat.dist.dest %>'
       }
+    },
+
+    changelog: {
+      options: {
+        dest: 'CHANGELOG.md'
+      }
     }
 
   });
